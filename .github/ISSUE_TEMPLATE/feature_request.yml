@@ -1,11 +1,11 @@
-name: Feature request
+name: Feature Request
 description: Suggest an idea for this project
-title: 'request: '
-labels: ['Meta: Feature']
+title: 'Request: '
+labels: ['feature']
 body:
   - type: markdown
     attributes:
-      value: Thank you for suggesting this feature! The more information you provide, the more likely it is that it will be picked up.
+      value: Thank you for suggesting this feature! Providing detailed information increases the chances of your request being considered.
   - type: checkboxes
     id: new-bug
     attributes:
@@ -17,30 +17,30 @@ body:
   - type: textarea
     id: feature-description
     attributes:
-      label: Feature description
-      description: Is your feature request related to a problem? Please describe.
-      placeholder: A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+      label: Feature Description
+      description: Describe the problem or need that this feature would address.
+      placeholder: Provide a clear and concise description of the issue. For example, "I'm always frustrated when..."
     validations:
       required: true
   - type: textarea
     id: steps-to-reproduce
     attributes:
-      label: Desired solution
-      description: Describe the solution you'd like
-      placeholder: A clear and concise description of what you want to happen.
+      label: Desired Solution
+      description: Describe the solution or functionality you envision.
+      placeholder: Clearly explain what you would like to happen.
     validations:
       required: true
   - type: textarea
     id: expected-behavior
     attributes:
-      label: Alternatives considered
-      description: Describe alternatives you've considered
-      placeholder: A clear and concise description of any alternative solutions or features you've considered.
+      label: Alternatives Considered
+      description: Have you thought about any alternative solutions or features?
+      placeholder: Briefly outline any alternative ideas you have explored.
     validations:
       required: true
   - type: textarea
     id: additional-context
     attributes:
-      label: Additional context
-      description: Do you want to share any additional context about this bug?
-      placeholder: Add any other context about the problem here.
+      label: Additional Context
+      description: Provide any extra details or context that might be helpful.
+      placeholder: Add any relevant information or background here.
